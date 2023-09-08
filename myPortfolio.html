@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Reset some default styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Global styles */
+        body {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /* Header styles */
+        header {
+            text-align: center;
+            background-color: #007BFF;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+            color: white;
+        }
+
+        .saikiran_image {
+            border-radius: 50%;
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+            color: white;
+        }
+
+        /* Contact box styles */
+        .contact-boxes {
+            display: flex;
+            flex-wrap: wrap; /* Allow boxes to wrap to the next line on smaller screens */
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .contact-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            flex: 1; /* Make the boxes equally distribute the available width */
+            max-width: 300px; /* Limit the width of the boxes on larger screens */
+        }
+
+        .contact-box a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        /* Projects and Skills styles */
+        .projects-skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+
+        .contact-box h3 {
+            font-size: 24px;
+            margin: 10px 0;
+            color: #007BFF;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #555;
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+        }
+
+        /* Media queries for responsiveness */
+        @media screen and (max-width: 768px) {
+            /* Adjust header styles for smaller screens */
+            h1 {
+                font-size: 28px;
+            }
+
+            .saikiran_image {
+                width: 150px;
+                height: 150px;
+            }
+
+            .contact-box {
+                max-width: 100%; /* Allow boxes to take the full width on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GANTA SAIKIRAN</h1>
+        <img src="Saikiran_image.jpg" class="saikiran_image" alt="Profile Photo">
+        <p>Aspiring | Acquiring | Admiring</p>
+    </header>
+    <div class="contact-boxes">
+        <div class="contact-box">
+            <a href="https://www.linkedin.com/in/ganta-saikiran-25b459219" target="_blank"><h3>LinkedIn</h3></a>
+        </div>
+        <div class="contact-box">
+            <a href="https://github.com/concentrickiddo" target="_blank"><h3>GitHub</h3></a>
+        </div>
+        <div class="contact-box">
+            <a href="https://auth.geeksforgeeks.org/user/saikirangr6nxtps://auth.geeksforgeeks.org/user/kodib20s77p/practice" target="_blank"><h3>Geeks for Geeks</h3></a>
+        </div>
+        <div class="contact-box">
+            <a href="https://leetcode.com/b200286ee/" target="_blank"><h3>LeetCode</h3></a>
+        </div>
+    </div>
+    <div class="projects-skills">
+        <div class="contact-box">
+            <h3>Projects</h3>
+            <ul>
+                <li>Mern Messenger</li>
+                <li>Bookify</li>
+                <li>Adding more soon </li>
+            </ul>
+        </div>
+        <div class="contact-box">
+            <h3>Skills</h3>
+            <ul>
+                <li class="skills-heading">Technical Skills</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>MERN Stack</li>
+                <li>SQL</li>
+                <li>Android Studio</li>
+                <li class="skills-heading">Non-Technical Skills</li>
+                <li>Public Speaking</li>
+                <li>Business Analysis</li>
+                <li>Sports</li>
+                <li>Ambidextrous</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        &copy; Ganta Saikiran. All rights reserved.
+    </footer>
+</body>
+</html>
